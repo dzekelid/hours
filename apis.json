@@ -1,0 +1,71 @@
+{
+	"name": "Streadata.io API Gallery - Hours",
+	"description": "This is a repository of hours APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/hours.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://hours.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Hours",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Hours",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RingCentral",
+			"x-api-slug": "ringcentral",
+			"description": "RingCentral, Inc. (NYSE: RNG) is a global provider of cloud enterprise unified communications and collaboration solutions. More flexible and cost-effective than legacy on-premise systems, RingCentral empowers today&rsquo;s mobile and distributed workforces to be connected anywhere and on any device through voice, video, team messaging, collaboration, SMS, conferencing, online meetings, contact center, and fax. RingCentral provides an open platform that integrates with today&rsquo;s leading business apps while giving customers the flexibility to customize their own workflows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg",
+			"humanURL": "http://www.ringcentral.com",
+			"baseURL": "https://platform.ringcentral.com//",
+			"tags": "Hours",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Hours",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "RingCentral",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/apis.yaml"
+		}
+	]
+}

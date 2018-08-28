@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: Clover
-x-complete: 1
+x-complete: 0
 info:
-  title: ""
+  title: Clover Get a specific set of merchant opening hours
   version: 1.0.0
+  description: Get a specific set of merchant opening hours.
 host: /merchants
 basePath: https://api.clover.com
 schemes:
@@ -70,45 +72,17 @@ paths:
       - Opening
       - Hours
       - HId
-    post:
-      summary: Update a set of merchant opening hours
-      description: Update a set of merchant opening hours.
-      operationId: UpdateMerchantOpeningHours
-      x-api-path-slug: v3merchantsmidopening-hourshid-post
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: hId
-      - in: path
-        name: mId
-        description: Merchant Id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Merchants
-      - Opening
-      - Hours
-      - HId
-    delete:
-      summary: Delete a set of merchant opening hours
-      description: Delete a set of merchant opening hours.
-      operationId: DeleteMerchantOpeningHours
-      x-api-path-slug: v3merchantsmidopening-hourshid-delete
-      parameters:
-      - in: path
-        name: hId
-      - in: path
-        name: mId
-        description: Merchant Id
-      responses:
-        200:
-          description: OK
-      tags:
-      - Merchants
-      - Opening
-      - Hours
-      - HId
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

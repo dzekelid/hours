@@ -7,11 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "383974"
 tags: Hours
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xignite Global Holidays - Get Exchange Hours
+  x-api-slug: getexchangehours-get
+  description: Get exchange hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/xignite/getexchangehours-get-openapi.md
+- name: Xignite Global Holidays - Get Exchange Hours Range
+  x-api-slug: getexchangehoursrange-get
+  description: Get exchange hours range.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png
+  humanURL: http://www.xignite.com
+  baseURL: https://globalholidays.xignite.com/xGlobalHolidays.json/XigniteGlobalHolidays
+  tags: Trading, Government, Charts, Bond Markets, Energy, Jobs, JavaScript, Markets,
+    Realestate, Logos, Business, Economic, Markets, Articles, Business, Utility, Statistics,
+    Transcripts, Finance, Finance, Financial News API, Getting Started Example, Stack
+    Network, SaaS, Technology, Enterprise, Financial, Market Data, Financial Services,
+    SDIO Partner, Currencies, Publish, General Data, Service API, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/xignite/getexchangehoursrange-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: http://xignite.github.io/DotNetSDK/

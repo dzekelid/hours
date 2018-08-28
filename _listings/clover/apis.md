@@ -12,11 +12,66 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "23096"
 tags: Hours
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ' - Get a list this merchant opening hours'
+  x-api-slug: v3merchantsmidopening-hours-get
+  description: Get a list this merchant opening hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/v3merchantsmidopening-hours-get-openapi.md
+- name: ' - Create a set of merchant opening hours'
+  x-api-slug: v3merchantsmidopening-hours-post
+  description: Create a set of merchant opening hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/v3merchantsmidopening-hours-post-openapi.md
+- name: ' - Get a specific set of merchant opening hours'
+  x-api-slug: v3merchantsmidopening-hourshid-get
+  description: Get a specific set of merchant opening hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/v3merchantsmidopening-hourshid-get-openapi.md
+- name: ' - Update a set of merchant opening hours'
+  x-api-slug: v3merchantsmidopening-hourshid-post
+  description: Update a set of merchant opening hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/v3merchantsmidopening-hourshid-post-openapi.md
+- name: ' - Delete a set of merchant opening hours'
+  x-api-slug: v3merchantsmidopening-hourshid-delete
+  description: Delete a set of merchant opening hours.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png
+  humanURL: https://www.clover.com
+  baseURL: https:///merchants/https://api.clover.com
+  tags: SaaS, Technology, Mobile, internet, Point of Sale, Pos, Service API, Relative
+    Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/clover/v3merchantsmidopening-hourshid-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://cloudflare.api.gallery.streamdata.io

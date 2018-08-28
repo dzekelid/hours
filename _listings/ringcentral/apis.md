@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-deve
 x-kinRank: "7"
 x-alexaRank: "7180"
 tags: Hours
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/apis.md
 specificationVersion: "0.14"
 apis:
@@ -37,6 +37,56 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidbusinesshours-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidbusinesshours-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update User Business Hours
+  x-api-slug: restapiv1-0accountaccountidextensionextensionidbusinesshours-put
+  description: "Updates the extension user hours when answering rules are to be applied.\nApp
+    Permission\nEditExtensions\nUser Permission\nEditUserAnsweringRules\nUsage Plan
+    Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error Message\n
+    \  \n \n\n400\nCMN-101\nParameter [ranges] value is invalid\n\n\n403\nCMN-401\nIn
+    order to call this API endpoint, application needs to have [EditExtensions] permission\n\n\n404\nCMN-102\nResource
+    for parameter [extensionId] is not found"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/restapiv1-0accountaccountidextensionextensionidbusinesshours-put-openapi.md
+- name: RingCentral Connect Platform API Explorer - Get Company Business Hours
+  x-api-slug: restapiv1-0accountaccountidbusinesshours-get
+  description: |-
+    Returns company hours when answering rules are to be applied.
+    App Permission
+    ReadAccounts
+    User Permission
+    ReadUserAnsweringRules
+    Usage Plan Group
+    Light
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/restapiv1-0accountaccountidbusinesshours-get-openapi.md
+- name: RingCentral Connect Platform API Explorer - Update Company Business Hours
+  x-api-slug: restapiv1-0accountaccountidbusinesshours-put
+  description: "Updates company hours when answering rules are to be applied.\nApp
+    Permission\nEditExtensions\nUser Permission\nEditUserAnsweringRules\nUsage Plan
+    Group\nMedium\nError Codes\n\n \n  \n   HTTP Code\n   Error Code\n   Error Message\n
+    \  \n \n\n400\nAWR-176\nAt least one time range for [monday] required\n\n\n400\nAWR-177\nTime
+    ranges limit for [monday] exceeded\n\n\n400\nCMN-101\nParameter [schedule.weeklyRanges]
+    value is invalid"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28867-developer-ringcentral-com.jpg
+  humanURL: http://www.ringcentral.com
+  baseURL: https://platform.ringcentral.com//
+  tags: Telecommunications, ISP, Voice, Video Conferencing, Webinars, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hours/master/_listings/ringcentral/restapiv1-0accountaccountidbusinesshours-put-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/ringcentral-developers
